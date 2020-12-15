@@ -1,0 +1,9 @@
+kind: pipeline
+type: docker
+name: Linux
+
+steps:
+- name: Test
+  image: ubuntu:20.04
+  commands:
+    - echo "TEST"
